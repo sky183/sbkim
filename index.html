@@ -1,0 +1,889 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>포트폴리오 - 김성범</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="assets/favicon.ico">
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->    
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/meflat-blue.css">
+		    <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="css/theme-1.css">
+		
+		
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic' rel='stylesheet' type='text/css'>
+		
+		
+		<!-- ==============================================
+		JS
+		=============================================== -->
+			
+		<!--[if lt IE 9]>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+        <style>
+            @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+            @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+            h1, h2, h3, h4, h5, h6{
+                font-family: 'Roboto Slab', 'Nanum Gothic', serif;
+          /*      font-weight: 100 !important;*/
+            }
+            
+            .label_better{
+                padding-top: 15px;
+                background: rgba(255,255,255,0.10);
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                border: none;
+                color: white;
+                height: 44px;
+                max-height: 44px;
+                min-height: 44px;
+                width: 207px;
+                max-width: 207px;
+                min-width: 207px;
+                padding: 10px 15px;
+                border-radius: 25px;
+                font-size: 16px;
+                outline: none;
+                vertical-align: middle;
+            }
+            .contactall{
+                width: 50%;
+                min-width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .contactcon{
+                max-width: 350px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .contactcon *{
+                font-size : 20px;
+                font-family: inherit;
+            }
+            .contactleft, .contactright{
+                display: inline-block;
+            }
+            .contactleft{
+                width: 20%;
+                min-width: 80px;
+                text-align: left;
+                vertical-align: top;
+            }
+            .contactright{
+                width: 68%;
+                min-width: 212px;
+                text-align: left;
+                padding-left: 5%;
+                vertical-align: top;
+            }
+        </style>
+		
+		
+	</head>
+  
+	<body data-spy="scroll" data-target="#main-nav" data-offset="400">
+		<!-- ==============================================
+		MAIN NAV
+		=============================================== -->
+		<div id="main-nav" class="navbar navbar-fixed-top">
+			<div class="container">
+			
+				<div class="navbar-header">
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					
+					<!-- ======= LOGO (for small screens)========-->
+					<a class="navbar-brand visible-xs scrollto" href="#home">SB</a>
+					
+				</div>
+				
+				<div id="site-nav" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#about" class="scrollto">About</a>
+						</li>
+						<li>
+							<a href="#resume" class="scrollto">Resume</a>
+						</li>
+						<li id="logo">
+							<a href="#home" class="scrollto">
+								<h1>S<span>B</span></h1>
+							</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="scrollto">Work</a>
+						</li>
+						<li>
+							<a href="#contact" class="scrollto">Contact</a>
+						</li>
+					</ul>
+				</div><!--End navbar-collapse -->
+				
+			</div><!--End container -->
+			
+		</div><!--End main-nav -->
+		
+		<!-- ==============================================
+		HEADER
+		=============================================== -->
+		<header id="home" class="jumbotron bg-image">
+		
+			<div class="container">
+			
+				<div class="row">
+				
+					<div class="col-sm-12 text-col text-center">
+					
+						<h1>김성범</h1>
+						<p>Java 기반 웹 개발자 / 신입</p>
+						
+					</div>
+				
+				</div>
+			
+			</div>
+			
+		</header><!--End header -->
+			
+		<!-- ==============================================
+		SERVICES
+		=============================================== -->
+<!--		<section id="service" class="white-bg padding-top-bottom">
+		
+			<div class="container">
+				
+				<header class="section-header text-center">
+				
+					<h1 class="scrollimation scale-in">What I Do</h1>
+					<p>안녕하세요</p>
+				
+				</header>
+			
+				<div class="row services">
+				
+					<div class="col-md-3 col-sm-6 item scrollimation fade-up">
+					
+						<div class="icon">
+							<img class="img-responsive img-center" src="assets/service1.png" alt="" />
+						</div>
+						
+						<h2>Web &amp; App Design</h2>
+						<p>Donec quam velit, aliquam at tempor quis, blandit quis nisi. Proin orci enim, dictum vel leo eu, blandit vulputate turpis.</p>
+					
+					</div>
+					
+					<div class="col-md-3 col-sm-6 item scrollimation fade-up d1">
+					
+						<div class="icon">
+							<img class="img-responsive img-center" src="assets/service2.png" alt="" />
+						</div>
+						
+						<h2>Web Development</h2>
+						<p>Donec quam velit, aliquam at tempor quis, blandit quis nisi. Proin orci enim, dictum vel leo eu, blandit vulputate turpis.</p>
+					
+					</div>
+					
+					<div class="col-md-3 col-sm-6 item scrollimation fade-up d2">
+					
+						<div class="icon">
+							<img class="img-responsive img-center" src="assets/service3.png" alt="" />
+						</div>
+						
+						<h2>SEO Content</h2>
+						<p>Donec quam velit, aliquam at tempor quis, blandit quis nisi. Proin orci enim, dictum vel leo eu, blandit vulputate turpis.</p>
+					
+					</div>
+					
+					<div class="col-md-3 col-sm-6 item scrollimation fade-up d3">
+					
+						<div class="icon">
+							<img class="img-responsive img-center" src="assets/service4.png" alt="" />
+						</div>
+						
+						<h2>Mail Campaigns</h2>
+						<p>Donec quam velit, aliquam at tempor quis, blandit quis nisi. Proin orci enim, dictum vel leo eu, blandit vulputate turpis.</p>
+					
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</section>-->
+		
+		<!-- ==============================================
+		FEATURED PROJECT
+		=============================================== -->	
+<!--		<section id="feat-project" class="gray-bg padding-top">
+		
+			<div class="container">
+			
+				<header class="section-header text-center">
+				
+					<h1 class="scrollimation scale-in">Featured Project</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Aenean purus felis, condimentum et tempor in, commodo id nibh. Fusce a lacus arcu.</p>
+				
+				</header>
+				
+				<div class="scrollimation fade-up">
+					<img class="img-responsive img-center" src="assets/chrome-top.png" alt="" />
+					
+					<div class="img-wrapper">
+						
+						<img class="img-responsive img-center" src="assets/placeholder-800x500.jpg" alt="" />
+						
+						<p class="text-center on-hover"><a class="btn btn-meflat icon-right" href="#external">Visit Website<i class="fa fa-arrow-right"></i></a></p>
+					
+					</div>
+				</div>
+				
+			</div>
+		
+		</section>-->
+
+		
+		<!-- ==============================================
+		ABOUT
+		=============================================== -->	
+		<section id="about" class="gray-bg padding-top-bottom">
+		
+			<div class="container">
+			
+				<header class="section-header text-center">
+				
+					<h1 class="scrollimation scale-in">About</h1>
+				
+				</header>
+				
+				<div class="row">
+				
+					<div class="col-sm-8 col-sm-offset-2">
+					
+						<img class="img-responsive img-center img-circle scrollimation fade-left" src="assets/about0.jpg" alt="" />
+					<!--	<h3 class="text-center scrollimation fade-in">1983 . 10 . 27</h3>-->
+				
+						<p class="text-center scrollimation fade-in">어릴 적 꿈을 뒤늦게 걷게 된 
+						신입 개발자 김성범 입니다. <br>
+						시작은 늦었으나 누구보다 큰 열정을 가지고 있습니다 <br><br>
+						성실한 과정과 탄탄한 결과로 보여드리겠습니다.<br>
+						좋은 인연으로 함께했으면 좋겠습니다.
+						</p>
+						
+					
+					</div>
+					
+				</div>
+			</div>
+		
+		</section>
+		
+        <!-- ==============================================
+		experiences
+		=============================================== -->	
+		<section id="resume" class="experiences-section section">
+           	<div class="container">
+                <header class="section-header text-center">
+
+                    <h1 class="scrollimation scale-in">Resume</h1>
+                    <p>
+                    저는 비트 캠프 개발자 양성 과정을 뛰어난 평가로 수료하였으며 <br>
+                    꾸준한 자기 계발과 실력 향상으로 회사에 생산성을 내는 개발자가 될 것입니다.<br><br>
+                    저는 12년간 ‘㈜아웃백 스테이크하우스’에서 영업 관리를 해 온 경험으로 실무의 적응력은 물론, <br>
+                    협업과 팔로워십의 중요성을 일반적인 사회 초년생보다 월등히 잘 이해할 수 있습니다.<br>
+                    </p>
+
+                </header>
+                <h1 class="text-center scrollimation fade-in">Work Experiences</h1>
+                <br><br>
+                <div class="timeline">
+                    <div class="item">
+                        <div class="work-place">
+                            <h3 class="place"><b>비트 캠프</b></h3>
+                            <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>서울 마포구</div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="title">Java 웹/앱 개발자 과정</div>
+                            <div class="time">2018</div>
+                        </div><!--//job-meta-->
+                        <div class="job-desc">
+                            <p>개발자로 이직을 목표로 아웃백을 퇴사 후 비트캠프 신촌점으로<br> 
+                            Java 기반 웹/앱 개발자 양성 과정 수료<br>
+                            수강생 우수상 수상</p> 
+                            <ul>
+                                <li>Java 문법 교육, JSP 및 Servlet 구현 </li>
+                                <li>웹 표준 구현 - HTML5, CSS, CSS3, 반응형 웹, JavaScript, JQuery, Ajax</li>
+                                <li>Spring 프레임워크, Mybatis</li>
+                                <li>JSP & Servlet MVC 모델 실무 프로젝트 개발</li>
+                            </ul>
+                        </div><!--//job-desc-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="work-place">
+                            <h3 class="place"><b>아웃백 스테이크하우스 코리아</b></h3>
+                            <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>청주, 천안</div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="title">Manager</div>
+                            <div class="time">2006 - 2017</div>
+                        </div><!--//job-meta-->
+                        <div class="job-desc">
+                            <p>2006년 입사하여 학업과 병행하며 근무 시작 <br>
+                            2008년 졸업 후 교육 과정 이수하여 Manager로 2017년까지 근속<br>
+                            근속 중 SalesPromotion 전사 1위 6회, 고객 만족도 전사 1위 2회 달성
+                            </p> 
+                            <ul>
+                                <li>직원 관리 - 교육, 채용, 인건비</li>
+                                <li>영업 관리 - ERP관리, 매장 운영, 시설, 영업 보고(Excel, PPT), 회계, 재무, 발주 </li>
+                                <li>고객 관리 - 마케팅, 고객 코멘트 관리</li>
+                            </ul>
+                        </div><!--//job-desc-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="work-place">
+                            <h3 class="place"><b>충청대학교 호텔경영과</b></h3>
+                            <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>청주</div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="title">편입</div>
+                            <div class="time">2006 - 2008</div>
+                        </div><!--//job-meta-->
+                        <div class="job-desc">
+                            <p>관광학부 &amp; 호텔경영 과정 수료</p> 
+                        </div><!--//job-desc-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="work-place">
+                            <h3 class="place"><b>충청대학교 컴퓨터 학부</b></h3>
+                            <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>청주</div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="title">전문 학사 과정</div>
+                            <div class="time">2002 - 2003</div>
+                        </div><!--//job-meta-->
+                        <div class="job-desc">
+                            <p>정보통신과 이수</p> 
+                        </div><!--//job-desc-->
+                    </div><!--//item-->
+
+                </div><!--//timeline-->
+            </div>
+        </section>
+        
+		<!-- ==============================================
+		SKILLS
+		=============================================== -->	
+		<section id="skills" class="white-bg">
+		
+			<div class="container">
+			
+				<div class="row skills">
+					
+					<h1 class="text-center scrollimation fade-in">Coding & Programming</h1>
+					<br>
+					
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="80"><span class="percent">80</span></span>-->
+						<h2 class="text-center">Java</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="70"><span class="percent">70</span></span>-->
+						<h2 class="text-center">JSP / Servlet</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="60"><span class="percent">60</span></span>-->
+						<h2 class="text-center">JavaScript / JQuery / Ajax</h2>
+					</div>		
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="60"><span class="percent">60</span></span>-->
+						<h2 class="text-center">HTML / CSS / BootStarp</h2>
+					</div>		
+					
+				</div><!--End row -->
+				<div class="row skills">
+					
+					<h1 class="text-center scrollimation fade-in">DB</h1>
+					<br>
+					
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="80"><span class="percent">80</span></span>-->
+						<h2 class="text-center">MySQL</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="70"><span class="percent">70</span></span>-->
+						<h2 class="text-center">Oracle</h2>
+					</div>
+					
+				</div><!--End row -->
+				<div class="row skills">
+					
+					<h1 class="text-center scrollimation fade-in">Framework & Tool</h1>
+					<br>
+					
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="80"><span class="percent">80</span></span>-->
+						<h2 class="text-center">Eclips / STS</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="70"><span class="percent">70</span></span>-->
+						<h2 class="text-center">Spring Framework</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="70"><span class="percent">70</span></span>-->
+						<h2 class="text-center">Mybatis</h2>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<!--<span class="chart" data-percent="70"><span class="percent">70</span></span>-->
+						<h2 class="text-center">AWS</h2>
+					</div>
+					
+				</div><!--End row -->
+			
+			</div>
+		
+		
+		</section>
+ 		<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->	
+		<section id="portfolio" class="gray-bg padding-top-bottom">
+			
+			<div class="container">
+			
+				<header class="section-header text-center">
+				
+					<h1 class="scrollimation scale-in">Work</h1>
+					<p>비트 캠프 수강시 구현했던 프로젝트 입니다.<br/>
+					이후 구현할 개인 프로젝트, 업무 중 담당한 프로젝트 등을 지속적으로 업데이트 계획입니다.
+					</p>
+				
+				</header>
+				
+				<!--==== Portfolio Filters ====-->
+				<div id="filter-works">
+					<ul>
+						<li class="active scrollimation fade-right d1">
+							<a href="#" data-filter="*">All</a>
+						</li>
+						<li class="scrollimation fade-left">
+							<a href="#" data-filter=".back-end">Back-End</a>
+						</li>
+						<li class="scrollimation fade-right">
+							<a href="#" data-filter=".front-end">Front-End</a>
+						</li>
+						<li class="scrollimation fade-left d1">
+							<a href="#" data-filter=".android">Android</a>
+						</li>
+					</ul>
+				</div><!--End portfolio filters -->
+				
+			</div><!--End portfolio header -->
+			
+			<div class="container masonry-wrapper scrollimation fade-in">
+			
+				<div id="projects-container"> 
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item front-end back-end">
+						
+						<img class="img-responsive project-image" src="assets/sbmall.jpg"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">SB_Mall</h2><!--Project Title -->
+							<p>쇼핑몰 프로젝트</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" 
+							data-category="쇼핑몰 - 사이트" 
+							data-date="Dec 2018 ( 6 week )" 
+							data-client="김성범 외 4명" 
+							data-link="www.sbmallstore.com,http://www.sbmallstore.com" 
+							data-git="github.com/sky183/SB_Mall.git,https://github.com/sky183/SB_Mall.git" 
+							data-descr="테스트 접속 ID : admin,  PW : 1234" 
+							data-images="assets/sbmall/main.jpg,assets/sbmall/store.jpg,assets/sbmall/storepurchase.jpg,assets/sbmall/crowd.jpg
+							,assets/sbmall/crowdpurchase.jpg,assets/sbmall/subway.jpg,assets/sbmall/weather.jpg,assets/sbmall/login.jpg
+							,assets/sbmall/join.jpg,assets/sbmall/my.jpg,assets/sbmall/cart.jpg,assets/sbmall/board.jpg">
+							<p>
+                                <b>사이트 소개</b>
+                                <br>
+                                퍼스널 모빌리티 쇼핑몰<br>
+                                두 가지의 쇼핑몰로 구성되어 있으며, 사용자의 편의 기능과 커뮤니티 구현<br>
+                                테스트를 위해 로그인이 필요( id : admin, pw : 1234 )
+                                
+                                
+							</p>
+							<p>
+                                <b>사이트 구성</b><br>
+                                Spring Framework 4.3.17 구성<br>
+                                쇼핑몰 페이지, 관리자 페이지로 구성<br>
+                                구현 내용 : 스토어, 얼리버드, 게시판, 지하철, 날씨, 마이페이지, 채팅<br>
+                                개발 환경 : STS, Brackets, MySql, AWS, Putty, FileZilla, GitHub, Tomcat8.5<br>
+                                사용 기술 : Java, JSP, JavaScript, Jquery, Ajax, MySQL, MyBatis, Bootstrap
+							</p>
+							<p>
+                                <b>수행 업무</b>
+                                <br>
+                                팀장, 프로젝트 총괄, 구상 및 실현 계획 작성, 프레젠테이션 진행<br>
+                                DB구성, 백엔드 구성, 아마존AWS 서버 구성, 파일 업로드 서버 구성<br>
+                                마이페이지, 날씨, CSS
+							</p>
+							
+							<p class="text-right"><a class="btn btn-meflat icon-right" href="http://www.sbmallstore.com" target="_blank">Visit Website<i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->		
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item front-end back-end">
+						
+						<img class="img-responsive project-image" src="assets/sbmalladmin.jpg"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">SB_Mall_Admin</h2><!--Project Title -->
+							<p>쇼핑몰 프로젝트 - 관리자</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" 
+							data-category="쇼핑몰 - 관리자" 
+							data-date="Dec 2018 ( 4 week )" 
+							data-client="김성범 - 단독" 
+							data-link="www.sbmallstore.com/admin,http://www.sbmallstore.com/admin" 
+							data-git="github.com/sky183/SB_Mall.git,https://github.com/sky183/SB_Mall.git" 
+							data-descr="테스트 접속 ID : admin,  PW : 1234"  
+							data-images="assets/sbmalladmin/main.jpg,assets/sbmalladmin/total.jpg,assets/sbmalladmin/sales.jpg,assets/sbmalladmin/budget.jpg
+							,assets/sbmalladmin/order.jpg,assets/sbmalladmin/member.jpg,assets/sbmalladmin/memberstat.jpg,assets/sbmalladmin/visitstat.jpg,assets/sbmalladmin/diary.jpg,assets/sbmalladmin/login.jpg">
+							<p>
+                                <b>사이트 소개</b>
+                                <br>
+                                ERP 시스템(관리자)<br>
+                                SB_Mall 쇼핑몰의 관리자 페이지로 ERP시스템을 비롯한 관리 기능 구현<br>
+                                테스트를 위해 로그인이 필요( id : admin, pw : 1234 )
+                                
+                                
+							</p>
+							<p>
+                                <b>사이트 구성</b><br>
+                                Spring Framework 4.3.17 구성<br>
+                                쇼핑몰 페이지, 관리자 페이지로 구성<br>
+                                구현 내용 : 매출 및 예산 관리, 주문 관리, 회원 관리, 통계 관리, 일정 관리<br>
+                                개발 환경 : STS, Brackets, MySql, AWS, Putty, FileZilla, GitHub, Tomcat8.5<br>
+                                사용 기술 : Java, JSP, JavaScript, Jquery, Ajax, MySQL, MyBatis, Bootstrap, Google Calendar, JUI Chart
+							</p>
+							<p>
+                                <b>수행 업무</b>
+                                <br>
+                                팀장, 프로젝트 총괄, 구상 및 실현 계획 작성, 프레젠테이션 진행<br>
+                                DB구성, 백엔드 구성, 아마존AWS 서버 구성, 파일 업로드 서버 구성<br>
+                                관리자 페이지 전담 구현
+							</p>
+							<p class="text-right"><a class="btn btn-meflat icon-right" href="http://www.sbmallstore.com/admin" target="_blank">Visit Website<i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->		
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item front-end">
+						
+						<img class="img-responsive project-image" src="assets/jindo.jpg"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">JindoDog-Project</h2><!--Project Title -->
+							<p>진돗개 프로젝트</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" 
+							data-category="미니프로젝트" 
+							data-date="Nov 2018 ( 5 day )" 
+							data-client="김성범 외 5명" 
+							data-link="davidh.tk/Jindo_Dog/index.jsp, http://davidh.tk/Jindo_Dog/index.jsp" 
+							data-git="github.com/sky183/SB_Company.git,https://github.com/sky183/SB_Company.git" 
+							data-descr="테스트 접속 : 카카오톡 ID & PW" 
+							data-images="assets/jindo/main.jpg,assets/jindo/login.jpg,assets/jindo/search.jpg,assets/jindo/dic.jpg,assets/jindo/subway.jpg
+							,assets/jindo/success.jpg,assets/jindo/lose.jpg">
+							<p>
+                                <b>사이트 소개</b>
+                                <br>
+                                오픈 API 활용 프로젝트<br>
+                                테스트를 위해 로그인이 필요( 카카오톡 로그인 )
+                                
+                                
+							</p>
+							<p>
+                                <b>사이트 구성</b><br>
+                                구현 내용 : 간첩 잡기 게임, 사전 찾기, 간첩 위치 조회, 잡은 간첩 카톡 보내기<br>
+                                개발 환경 : Eclipse IDE, Brackets, AWS, Putty, FileZilla, GitHub, Tomcat8.5<br>
+                                사용 기술 : Java, JSP, JavaScript, Jquery, Ajax
+                                사용 API : 카카오톡 로그인, 우리말 사전, 남북한 언어사전, 서울시 지하철역, 서울시 자전거 보관소, 다음 맵, 카카오톡 링크
+							</p>
+							<p>
+                                <b>수행 업무</b>
+                                <br>
+                                팀장, 프로젝트 총괄, 구상 및 실현 계획 작성, 프레젠테이션 진행<br>
+                                DB구성, 백엔드 구성, 아마존AWS 서버 구성, 파일 업로드 서버 구성<br>
+                                마이페이지, 날씨, CSS
+							</p>
+							<p class="text-right"><a class="btn btn-meflat icon-right" href="http://davidh.tk/Jindo_Dog/index.jsp" target="_blank">Visit Website<i class="fa fa-arrow-right"></i></a></p>
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->						
+						
+				</div><!-- End projects --> 
+				
+			</div><!-- End container --> 
+			
+			<!-- ==============================================
+			PROJECT PREVIEW MODAL (Do not alter this markup)
+			=============================================== -->	
+			<div id="project-modal" class="modal fade">
+			
+				<div class="modal-dialog">
+				
+					<div class="modal-content">
+					
+						<div class="modal-header">
+						
+							<div class="container">
+							
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								
+								<h1 id="hdr-title" class="text-center"></h1>
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2">
+										<div class="image-wrapper">
+											<img class="img-responsive" src="assets/chrome.png" alt="">
+											<div class="loader"></div>
+											<div class="screen"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="modal-body">
+							<div class="container">
+								<div class="row">
+									<div id="project-sidebar" class="col-md-4">
+										<h2 id="sdbr-title"></h2>
+										<p id="sdbr-category"></p>
+										<p id="sdbr-date"></p>
+										<p id="sdbr-client"></p>
+										<p id="sdbr-link"><a href="#link" target="_blank"></a></p>
+										<p id="sdbr-git"><a href="#link" target="_blank"></a></p>
+										<p id="sdbr-descr"></p>
+									</div>
+									<div id="project-content" class="col-md-8">
+									</div>
+								</div>
+								
+							</div>
+						</div><!-- End modal-body -->
+						
+					</div><!-- End modal-content -->
+					
+				</div><!-- End modal-dialog -->
+				
+			</div><!-- End modal -->
+			
+		</section>
+		<!-- ==============================================
+		DRIBBLE 
+		=============================================== -->	
+<!--		<section id="dribbble">
+			<h1 class="dribbble-button"><a href="#">My Dribbble Shots</a></h1>
+				<div class="row">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://www.sbmallstore.com" target="_blank"><img class="img-responsive" src="assets/375x250sbmall.jpg"  alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://www.sbmallstore.com/admin" target="_blank"><img class="img-responsive" src="assets/375x250sbmalladmin.jpg"  alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://davidh.tk/Jindo_Dog/index.jsp" target="_blank"><img class="img-responsive" src="assets/375x250jindo.jpg"  alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="#link" target="_blank"><img class="img-responsive" src="assets/placeholder-375x250.jpg"  alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="#link" target="_blank"><img class="img-responsive" src="assets/placeholder-375x250.jpg"  alt=""></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="#link" target="_blank"><img class="img-responsive" src="assets/placeholder-375x250.jpg"  alt=""></a>
+					</div>
+				</div>
+		</section>-->
+		<!-- ==============================================
+		CONTACT
+		=============================================== -->	
+		<section id="contact" class="dark-bg light-typo padding-top-bottom">
+		
+			<div class="container">
+			
+				<header class="section-header text-center">
+				
+					<h1 class="scrollimation scale-in">Contact</h1>
+					<p>미래를 보고 채용할 신입 개발자가 필요하시다면 연락 주십시오.<br/>
+                    귀사와 꾸준히 함께할 가치있는 사원이 될 것입니다.</p>
+				
+				</header>
+                <div class="contactall">
+                    <div class="contactcon">
+                        <div class="contactleft">
+                            <h1>
+                                Name
+                            </h1>
+                        </div>
+                        <div class="contactright">
+                            <h1>
+                                김성범
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="contactcon">
+                        <div class="contactleft">
+                            <h1>
+                                Phone
+                            </h1>
+                        </div>
+                        <div class="contactright">
+                            <h1>
+                                010.7288.8928
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="contactcon">
+                        <div class="contactleft">
+                            <h1>
+                                Mail
+                            </h1>
+                        </div>
+                        <div class="contactright">
+                            <h1>
+                                <a href="mailto:minasb@naver.com">minasb@naver.com</a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="contactcon">
+                        <div class="contactleft">
+                            <h1>
+                                Address
+                            </h1>
+                        </div>
+                        <div class="contactright">
+                            <h1>
+                                서울시 관악구 남현동
+                            </h1>
+                        </div>
+                    </div>
+				</div>
+
+
+			</div>
+		
+		</section>
+		
+		<!-- ==============================================
+		FOOTER
+		=============================================== -->	
+		
+		<footer id="main-footer" class="dark-bg light-typo">
+		
+			<div class="container">
+			
+				<hr>
+				
+				<div class="row">
+				
+					<div class="col-sm-6">
+<!--						<ul class="social-links">
+							<li class="scrollimation fade-right d4"><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+							<li class="scrollimation fade-right d3"><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+							<li class="scrollimation fade-right d2"><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+							<li class="scrollimation fade-right d1"><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
+							<li class="scrollimation fade-right"><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+						</ul>-->
+					</div>
+					
+					<div class="col-sm-6 text-right">
+						<p>&copy;Copyright 2019 sb-kim </p>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</footer>
+		
+		
+		<!-- ==============================================
+		SCRIPTS
+		=============================================== -->	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+		
+		<script src="js/libs/bootstrap.min.js"></script>
+		<script src='js/jquery.easing.1.3.min.js'></script>
+		<script src='js/jquery.scrollto.js'></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src='js/jquery.flexslider.min.js'></script>
+		<script src='js/jquery.masonry.js'></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.label_better.min.js"></script>
+		<script src="js/jquery.easypiechart.js"></script>
+		<script src="js/contact.js"></script>
+		<script src="js/meflat.js"></script>
+		
+	</body>
+	
+</html>
