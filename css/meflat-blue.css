@@ -615,7 +615,7 @@ a:focus,
 #about img{
     margin-bottom:40px;
 	border:15px solid transparent;
-	box-shadow:5px 3px 0 rgba(255,255,255,.6);
+	box-shadow:5px 3px 0 rgba(0,0,0, 0.2);
 }
 
 #about p{
